@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_100daysofml_1699210397609-pr-trigger-input-set
+  identifier: Build_100daysofml_1699210397609prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_100daysofml_1699210397609
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
