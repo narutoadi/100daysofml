@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_100daysofml_1699210397609-push-trigger-input-set
+  identifier: Build_100daysofml_1699210397609pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_100daysofml_1699210397609
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
